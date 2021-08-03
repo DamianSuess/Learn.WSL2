@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LearnWSL.UnoApp.Shared", "LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "LearnWSL.UnoApp\Platforms", "{49DE5CF1-E1DF-4F05-ACE5-BC81767B6B1E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{49DE5CF1-E1DF-4F05-ACE5-BC81767B6B1E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Droid", "LearnWSL.UnoApp\LearnWSL.UnoApp.Droid\LearnWSL.UnoApp.Droid.csproj", "{EB807619-6B47-4DE2-8ED3-CF46CDA6D292}"
 EndProject
@@ -13,29 +13,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.iOS", "Lear
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.UWP", "LearnWSL.UnoApp\LearnWSL.UnoApp.UWP\LearnWSL.UnoApp.UWP.csproj", "{E4317FBC-CE4D-4D00-B3FD-10F55C7776A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Wasm", "LearnWSL.UnoApp\LearnWSL.UnoApp.Wasm\LearnWSL.UnoApp.Wasm.csproj", "{A7488329-8133-48F9-95BA-0D3B64EB2107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnWSL.UnoApp.Wasm", "LearnWSL.UnoApp\LearnWSL.UnoApp.Wasm\LearnWSL.UnoApp.Wasm.csproj", "{A7488329-8133-48F9-95BA-0D3B64EB2107}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.macOS", "LearnWSL.UnoApp\LearnWSL.UnoApp.macOS\LearnWSL.UnoApp.macOS.csproj", "{E0BC5FDA-9341-4EF0-AB17-0BFDDB109B39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Skia.Wpf.Host", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Wpf.Host\LearnWSL.UnoApp.Skia.Wpf.Host.csproj", "{F3C357FF-4249-4CDE-AFBB-688058128A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnWSL.UnoApp.Skia.Wpf.Host", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Wpf.Host\LearnWSL.UnoApp.Skia.Wpf.Host.csproj", "{F3C357FF-4249-4CDE-AFBB-688058128A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Skia.Wpf", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Wpf\LearnWSL.UnoApp.Skia.Wpf.csproj", "{5B56A83F-4140-4CD1-92C8-7294F6D20190}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnWSL.UnoApp.Skia.Wpf", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Wpf\LearnWSL.UnoApp.Skia.Wpf.csproj", "{5B56A83F-4140-4CD1-92C8-7294F6D20190}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Skia.Gtk", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Gtk\LearnWSL.UnoApp.Skia.Gtk.csproj", "{23377EC3-3C8D-4FF7-A95E-E8A1BCB1E8C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnWSL.UnoApp.Skia.Gtk", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Gtk\LearnWSL.UnoApp.Skia.Gtk.csproj", "{23377EC3-3C8D-4FF7-A95E-E8A1BCB1E8C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnWSL.UnoApp.Skia.Tizen", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Tizen\LearnWSL.UnoApp.Skia.Tizen.csproj", "{D859603D-A475-46E9-B1DE-35E1ACA6C276}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnWSL.UnoApp.Skia.Tizen", "LearnWSL.UnoApp\LearnWSL.UnoApp.Skia.Tizen\LearnWSL.UnoApp.Skia.Tizen.csproj", "{D859603D-A475-46E9-B1DE-35E1ACA6C276}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{23377ec3-3c8d-4ff7-a95e-e8a1bcb1e8c0}*SharedItemsImports = 5
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{5b56a83f-4140-4cd1-92c8-7294f6d20190}*SharedItemsImports = 5
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{a7488329-8133-48f9-95ba-0d3b64eb2107}*SharedItemsImports = 5
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{d859603d-a475-46e9-b1de-35e1aca6c276}*SharedItemsImports = 5
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e0bc5fda-9341-4ef0-ab17-0bfddb109b39}*SharedItemsImports = 4
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e4317fbc-ce4d-4d00-b3fd-10f55c7776a0}*SharedItemsImports = 4
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e8ac3694-1e66-44d2-b456-1bc592a70375}*SharedItemsImports = 4
-		LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{eb807619-6b47-4de2-8ed3-cf46cda6d292}*SharedItemsImports = 4
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{23377ec3-3c8d-4ff7-a95e-e8a1bcb1e8c0}*SharedItemsImports = 5
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{5b56a83f-4140-4cd1-92c8-7294f6d20190}*SharedItemsImports = 5
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
