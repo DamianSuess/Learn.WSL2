@@ -30,6 +30,12 @@ Global
 		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{23377ec3-3c8d-4ff7-a95e-e8a1bcb1e8c0}*SharedItemsImports = 5
 		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{5b56a83f-4140-4cd1-92c8-7294f6d20190}*SharedItemsImports = 5
 		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{a7488329-8133-48f9-95ba-0d3b64eb2107}*SharedItemsImports = 5
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{d859603d-a475-46e9-b1de-35e1aca6c276}*SharedItemsImports = 5
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e0bc5fda-9341-4ef0-ab17-0bfddb109b39}*SharedItemsImports = 4
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e4317fbc-ce4d-4d00-b3fd-10f55c7776a0}*SharedItemsImports = 4
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{e8ac3694-1e66-44d2-b456-1bc592a70375}*SharedItemsImports = 4
+		LearnWSL.UnoApp\LearnWSL.UnoApp.Shared\LearnWSL.UnoApp.Shared.projitems*{eb807619-6b47-4de2-8ed3-cf46cda6d292}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
