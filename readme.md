@@ -1,20 +1,33 @@
-
 # WSL2 Debugging with Visual Studio
+
 Is now included in Visual Studio 2019
 
 Previously, you had to download the extension which was in "preview" only. The link is provided as a reference to the documentation.
-* https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2
 
+* [Old Tool](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.Dot-Net-Core-Debugging-With-Wsl2)
 
 ## Prerequisites
-* Visual Studio 2019 v16.6: https://aka.ms/vs
-* .NET Core Tools: https://get.dot.net
-* WSL 2: https://aka.ms/wsl
-* WSL 2 distribution: https://aka.ms/wslstore
+
+First things first, you must be running at least VS 2019 (latest update) and enable WSL 2 on your Windows 10 box.
+
+* [Visual Studio 2019 v16.6](https://aka.ms/vs)
+* [.NET Core Tools](https://get.dot.net)
+* [WSL 2](https://aka.ms/wsl)
+
+## Install Linux Distro
+
+Next, be sure to install a Linux distro from the Microsoft store.
+
+1. [WSL 2 distribution](https://aka.ms/wslstore)
+   * Download your favorite distro.
+   * I've only tested with **Ubuntu 20.04 LTS** (~450 MB).
+2. After downloading, launch the distro
+3. Configure your Username and Password.
 
 ## Prerequisites for Distros
-* .NET Core runtime https://aka.ms/WslDotNet
-* Curl: https://curl.haxx.se/
+
+1. Install .NET on your WSL distro via,[.NET Core runtime](https://aka.ms/WslDotNet)
+1. [Curl](https://curl.haxx.se/)
 
 ## Configure WSL 2
 
