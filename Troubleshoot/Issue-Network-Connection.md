@@ -9,11 +9,37 @@ First, search network adapters
 Next, Add firewall rules
 
 ```powershell
+# Get list of network adapters
+Get-NetIPInterface
+
+# Add rules to allow "vEthernet (WSL)"
 New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow
 New-NetFirewallRule -DisplayName "WSL" -Direction Outbound -InterfaceAlias "vEthernet (WSL)"  -Action Allow
 ```
 
 ## TEST
+
+## Backup and Relinking resolv.conf
+
+Note, the `resolv.conf` file is a linked fin in the `../run/resolvconf/resolv.conf`
+
+```bash
+# Backup file
+sudo cp /etc/resolv.conf /etc/resolv.conf.BAK
+
+# unlink file
+sudo unlink /etc/resolv.conf
+
+# Replace file
+sudo cp /etc/resolv.conf.BAK /etc.resolv.conf
+# sudo mv /etc/resolv.conf.BAK /etc.resolv.conf
+
+# Open and edit
+sudo nano /etc/resolv.conf
+
+# relink
+sudo ln -s ../run/resolvconf/resolv.conf resolv.conf
+```
 
 ## Ping by IP but not Name
 
@@ -28,8 +54,6 @@ A simple test goes as follows:
    2. ping 172.217.2.110
    3. ping google.com
 2. If you're able to ping by IP, continue reading.
-
-
 
 ### Cisco AnyConnect
 
